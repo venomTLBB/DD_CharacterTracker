@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classDef>
+  <class>Druid</class>
+  <hitdie>1d8</hitdie>
+  <alignment>NG, LN, NC, NE</alignment>
+  <skills>Concentration, Craft, Diplomacy, Handle Animal, Heal, Knowledge Nature, Listen, Profession, Ride, Spellcraft, Spot, Survival, Swim</skills>
+  <skillPoints>
+    <lvlOne>4, INT, 4</lvlOne>
+    <lvlUp>4, INT</lvlUp>
+  </skillPoints>
+  <proficiency>
+    <weapons>club, dagger, dart, quarterstaff, scimitar, sickle, shortspear, sling, spear</weapons>
+    <armor>light, medium</armor>
+  </proficiency>
+  <spellInfo>
+    <spellType>Divine</spellType>
+    <castReq>WIS, 10, spellLvl</castReq>
+    <dc>WIS, 10, spellLvl</dc>
+  </spellInfo>
+
+  <lvlTable>
+    <l1>
+      <bab>0</bab>
+      <saves>2, 0, 2</saves>
+      <special>Animal companion, nature sense, wild empathy</special>
+      <spellsPerDay>3, 1</spellsPerDay>
+    </l1>
+    <l2>
+      <bab>1</bab>
+      <saves>3, 0, 3</saves>
+      <special>Woodland stride</special>
+      <spellsPerDay>4, 2</spellsPerDay>
+    </l2>
+    <l3>
+      <bab>2</bab>
+      <saves>3, 0, 3</saves>
+      <special>Woodland stride</special>
+      <spellsPerDay>4, 2, 1</spellsPerDay>
+    </l3>
+    <l4>
+      <bab>3</bab>
+      <saves>4, 1, 4</saves>
+      <special>Resist nature’s lure</special>
+      <spellsPerDay>5, 3, 2</spellsPerDay>
+    </l4>
+    <l5>
+      <bab>3</bab>
+      <saves>4, 1, 4</saves>
+      <special>Wild shape (1/day)</special>
+      <spellsPerDay>5, 3, 2, 1</spellsPerDay>
+    </l5>
+    <l6>
+      <bab>4</bab>
+      <saves>5, 2, 5</saves>
+      <special>Wild shape (2/day)</special>
+      <spellsPerDay>5, 3, 3, 2</spellsPerDay>
+    </l6>
+    <l7>
+      <bab>5</bab>
+      <saves>5, 2, 5</saves>
+      <special>Wild shape (3/day)</special>
+      <spellsPerDay>6, 4, 3, 2, 1</spellsPerDay>
+    </l7>
+    <l8>
+      <bab>6, 1</bab>
+      <saves>6, 2, 6</saves>
+      <special>Wild shape (Large)</special>
+      <spellsPerDay>6, 4, 3, 3, 2</spellsPerDay>
+    </8>
+    <9>
+      <bab>6, 1</bab>
+      <saves>6, 3, 6</saves>
+      <special>Venom immunity</special>
+      <spellsPerDay>6, 4, 4, 3, 2, 1</spellsPerDay>
+    </l9>
+    <l10>
+      <bab>7, 2</bab>
+      <saves>7, 3, 7</saves>
+      <special>Wild shape (4/day)</special>
+      <spellsPerDay>6, 4, 4, 3, 3, 2</spellsPerDay>
+    </l10>
+    <l11>
+      <bab>8, 3</bab>
+      <saves>7, 3, 7</saves>
+      <special>Wild shape (Tiny)</special>
+      <spellsPerDay>6, 5, 4, 4, 3, 2, 1</spellsPerDay>
+    </l11>
+    <l12>
+      <bab>9, 4</bab>
+      <saves>8, 4, 8</saves>
+      <special>Wild shape (plant)</special>
+      <spellsPerDay>6, 5, 4, 4, 3, 3, 2</spellsPerDay>
+    </l12>
+    <l13>
+      <bab>9, 4</bab>
+      <saves>8, 4, 8</saves>
+      <special>A thousand faces</special>
+      <spellsPerDay>6, 5, 5, 4, 4, 3, 2, 1</spellsPerDay>
+    </l13>
+    <l14>
+      <bab>10, 5</bab>
+      <saves>9, 4, 9</saves>
+      <special>Wild shape (5/day)</special>
+      <spellsPerDay>6, 5, 5, 4, 4, 3, 3, 2</spellsPerDay>
+    </l14>
+    <l15>
+      <bab>11, 6, 1</bab>
+      <saves>9, 5, 9</saves>
+      <special>Timeless body, wild shape (Huge)</special>
+      <spellsPerDay>6, 5, 5, 5, 4, 4, 3, 2, 1</spellsPerDay>
+    </l15>
+    <l16>
+      <bab>12, 7, 2</bab>
+      <saves>10, 5, 10</saves>
+      <special>Wild shape (elemental 1/day)</special>
+      <spellsPerDay>6, 5, 5, 5, 4, 4, 3, 3, 2</spellsPerDay>
+    </l16>
+    <l17>
+      <bab>12, 7, 2</bab>
+      <saves>10, 5, 10</saves>
+      <special></special>
+      <spellsPerDay>6, 5, 5, 5, 5, 4, 4, 3, 2, 1</spellsPerDay>
+    </l17>
+    <l18>
+      <bab>13, 8, 3</bab>
+      <saves>11, 6, 11</saves>
+      <special>Wild shape (6/day, elemental 2/day)</special>
+      <spellsPerDay>6, 5, 5, 5, 5, 4, 4, 3, 3, 2</spellsPerDay>
+    </l18>
+    <l19>
+      <bab>14, 9, 4</bab>
+      <saves>11, 6, 11</saves>
+      <special></special>
+      <spellsPerDay>6, 5, 5, 5, 5, 5, 4, 4, 3, 3</spellsPerDay>
+    </l19>
+    <l20>
+      <bab>15, 10, 5</bab>
+      <saves>12, 6, 12</saves>
+      <special>Wild shape (elemental 3/day, Huge elemental)</special>
+      <spellsPerDay>6, 5, 5, 5, 5, 5, 4, 4, 4, 4</spellsPerDay>
+    </l20>
+  </lvlTable>
+</classDef>

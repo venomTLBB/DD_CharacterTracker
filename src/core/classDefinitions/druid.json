@@ -1,0 +1,664 @@
+{
+  "class": "druid",
+  "hitDie":{
+    "diceNum": 1,
+    "diceType": 8
+  },
+
+  "alignments":[
+    {"alignmentName": "NG"},
+    {"alignmentName": "LN"},
+    {"alignmentName": "NC"},
+    {"alignmentName": "NE"}
+  ],
+
+  "knownSkills":[
+    { "skill": "Concentration"},
+    { "skill": "Craft"},
+    { "skill": "Diplomacy"},
+    { "skill": "Handle Animal"},
+    { "skill": "Heal"},
+    { "skill": "Knowledge Nature"},
+    { "skill": "Listen"},
+    { "skill": "Profession"},
+    { "skill": "Ride"},
+    { "skill": "Spellcraft"},
+    { "skill": "Spot"},
+    { "skill": "Survival"},
+    { "skill": "Swim"}
+  ],
+
+  "skillPoints":{
+    "firstLevel":{
+      "add": 4,
+      "abilityMod": "INT",
+      "product": 4
+    },
+    "levelUp":{
+      "add": 4,
+      "abilityMod": "INT"
+    }
+  },
+
+  "weaponProficiency": [
+    {"martial": [
+      { "weapon": "Club"},
+      { "weapon": "Dagger"},
+      { "weapon": "Dart"},
+      { "weapon": "Quarterstaff"},
+      { "weapon": "Scimitar"},
+      { "weapon": "Sickle"},
+      { "weapon": "Dart"},
+      { "weapon": "Shortspear"},
+      { "weapon": "Sling"},
+      { "weapon": "Spear"}
+    ]},
+
+    {"exotic": []}
+  ],
+
+  "armorProficiency":[
+    { "armor": "Light"},
+    { "armor": "Medium"}
+  ],
+
+  "spellInfo":{
+    "spellType": "Divine",
+    "castingReq":{
+      "abilityMod": "WIS",
+      "add": 10,
+      "spelllevel": null
+    },
+    "dc":{
+      "abilityMod": "WIS",
+      "add": 10,
+      "spelllevel": null
+    }
+  },
+
+  "levelTable":[
+    { "level": {
+        "name": 1,
+        "bab":{
+          "1st": 0,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "fort": 2,
+          "ref": 0,
+          "will": 2
+        },
+        "special": [
+          { "name": "Animal companion"},
+          { "name": "Nature sense"},
+          { "name": "Wild empathy"}
+        ],
+        "spellsPerDay":{
+          "0": 3,
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 2,
+        "bab":{
+          "1st": 1,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 3,
+          "Ref": 0,
+          "Will": 3
+        },
+        "special": [
+          { "name": "Woodland stride"}
+        ],
+        "spellsPerDay":{
+          "0": 4,
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 3,
+        "bab":{
+          "1st": 2,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 3,
+          "Ref": 0,
+          "Will": 3
+        },
+        "special": [
+          { "name": "Trackless step"}
+        ],
+        "spellsPerDay":{
+          "0": 4,
+          "1": 2,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+      "name": 4,
+      "bab":{
+        "1st": 3,
+        "2nd": 0,
+        "3rd": 0,
+        "4th": 0
+      },
+      "saves": {
+        "Fort": 4,
+        "Ref": 1,
+        "Will": 4
+      },
+      "special": [
+        { "name": "Resist nature’s lure"}
+      ],
+      "spellsPerDay":{
+        "0": 5,
+        "1": 3,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+      }},
+    { "level": {
+        "name": 5,
+        "bab":{
+          "1st": 3,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 4,
+          "Ref": 1,
+          "Will": 4
+        },
+        "special": [
+          { "name": "Wild shape (1/day)"}
+        ],
+        "spellsPerDay":{
+          "0": 5,
+          "1": 3,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 6,
+        "bab":{
+          "1st": 4,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 5,
+          "Ref": 2,
+          "Will": 5
+        },
+        "special": [
+          { "name": "Wild shape (2/day)"}
+        ],
+        "spellsPerDay":{
+          "0": 5,
+          "1": 3,
+          "2": 3,
+          "3": 2,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 7,
+        "bab":{
+          "1st": 5,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 5,
+          "Ref": 2,
+          "Will": 5
+        },
+        "special": [
+          { "name": "Wild shape (3/day)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 4,
+          "2": 3,
+          "3": 2,
+          "4": 1,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 8,
+        "bab":{
+          "1st": 6,
+          "2nd": 1,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "fort": 6,
+          "ref": 2,
+          "will": 6
+        },
+        "special": [
+          { "name": "Wild shape (Large)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 4,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 9,
+        "bab":{
+          "1st": 6,
+          "2nd": 1,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 6,
+          "Ref": 3,
+          "Will": 6
+        },
+        "special": [
+          { "name": "Venom immunity"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 4,
+          "2": 4,
+          "3": 3,
+          "4": 2,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 10,
+        "bab":{
+          "1st": 7,
+          "2nd": 2,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 7,
+          "Ref": 3,
+          "Will": 7
+        },
+        "special": [
+          { "name": "Wild shape (4/day)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 4,
+          "2": 4,
+          "3": 3,
+          "4": 3,
+          "5": 2,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 11,
+        "bab":{
+          "1st": 8,
+          "2nd": 3,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 7,
+          "Ref": 3,
+          "Will": 7
+        },
+        "special": [
+          { "name": "Wild shape (Tiny)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 4,
+          "3": 4,
+          "4": 3,
+          "5": 2,
+          "6": 1,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 12,
+        "bab":{
+          "1st": 9,
+          "2nd": 4,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 8,
+          "Ref": 4,
+          "Will": 8
+        },
+        "special": [
+          { "name": "Wild shape (Plant)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 4,
+          "3": 4,
+          "4": 3,
+          "5": 3,
+          "6": 2,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 13,
+        "bab":{
+          "1st": 9,
+          "2nd": 4,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 8,
+          "Ref": 4,
+          "Will": 8
+        },
+        "special": [
+          { "name": "A thousand faces"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 5,
+          "3": 4,
+          "4": 4,
+          "5": 3,
+          "6": 2,
+          "7": 1,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 14,
+        "bab":{
+          "1st": 10,
+          "2nd": 5,
+          "3rd": 0,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 9,
+          "Ref": 4,
+          "Will": 9
+        },
+        "special": [
+          { "name": "Wild shape (5/day)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 5,
+          "3": 4,
+          "4": 4,
+          "5": 3,
+          "6": 3,
+          "7": 2,
+          "8": 0,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 15,
+        "bab":{
+          "1st": 11,
+          "2nd": 6,
+          "3rd": 1,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 9,
+          "Ref": 5,
+          "Will": 9
+        },
+        "special": [
+          { "name": "Timeless body"},
+          { "name": "Wild shape (Huge)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 4,
+          "5": 4,
+          "6": 3,
+          "7": 2,
+          "8": 1,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 16,
+        "bab":{
+          "1st": 12,
+          "2nd": 7,
+          "3rd": 2,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 10,
+          "Ref": 5,
+          "Will": 10
+        },
+        "special": [
+          { "name": "Wild shape (elemental 1/day)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 4,
+          "5": 4,
+          "6": 3,
+          "7": 3,
+          "8": 2,
+          "9": 0
+        }
+      }},
+    { "level": {
+        "name": 17,
+        "bab":{
+          "1st": 12,
+          "2nd": 7,
+          "3rd": 2,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 10,
+          "Ref": 5,
+          "Will": 10
+        },
+        "special": [
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 2,
+          "9": 1
+        }
+      }},
+    { "level": {
+        "name": 18,
+        "bab":{
+          "1st": 13,
+          "2nd": 8,
+          "3rd": 3,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 11,
+          "Ref": 6,
+          "Will": 11
+        },
+        "special": [
+          { "name": "Wild shape (6/day)"},
+          { "name": "Elemental (2/day)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 2
+        }
+      }},
+    { "level": {
+        "name": 19,
+        "bab":{
+          "1st": 14,
+          "2nd": 9,
+          "3rd": 4,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 11,
+          "Ref": 6,
+          "Will": 11
+        },
+        "special": [
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5,
+          "6": 4,
+          "7": 4,
+          "8": 3,
+          "9": 3
+        }
+      }},
+    { "level": {
+        "name": 20,
+        "bab":{
+          "1st": 15,
+          "2nd": 10,
+          "3rd": 5,
+          "4th": 0
+        },
+        "saves": {
+          "Fort": 12,
+          "Ref": 6,
+          "Will": 12
+        },
+        "special": [
+          { "name": "Elemental (3/day)"},
+          { "name": "Elemental (Huge)"}
+        ],
+        "spellsPerDay":{
+          "0": 6,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5,
+          "6": 4,
+          "7": 4,
+          "8": 4,
+          "9": 4
+        }
+      }}
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "simpleWeapons":[
+
+    {"weapon":{
+      "name": "Gauntlet",
+      "cost":{
+        "type": "gp",
+        "amount": "2"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "2"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "3"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "1",
+      "type": "bludgeoning"
+    }},
+
+    {"weapon":{
+      "name": "Unarmed",
+      "cost":{
+        "type": "NA",
+        "amount": "NA"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "2"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "3"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "NA",
+      "type": "bludgeoning",
+      "sort": "Unarmed"
+    }},
+
+    {"weapon":{
+      "name": "Dagger",
+      "cost":{
+        "type": "gp",
+        "amount": "2"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "3"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "4"
+        }
+      },
+      "critical":{
+        "range": "19",
+        "mult": "2"
+      },
+      "weight": "1",
+      "type": "bludgeoning",
+      "sort": "Light Melee"
+    }},
+
+    {"weapon":{
+      "name": "Punching Dagger",
+      "cost":{
+        "type": "gp",
+        "amount": "2"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "3"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "4"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "3"
+      },
+      "weight": "1",
+      "type": "bludgeoning",
+      "sort": "Light Melee"
+    }},
+
+    {"weapon":{
+      "name": "Spiked Gauntlet",
+      "cost":{
+        "type": "gp",
+        "amount": "5"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "3"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "4"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "1",
+      "type": "bludgeoning",
+      "sort": "Light Melee"
+    }},
+
+    {"weapon":{
+      "name": "Light Mace",
+      "cost":{
+        "type": "gp",
+        "amount": "5"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "4"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "6"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "4",
+      "type": "bludgeoning",
+      "sort": "Light Melee"
+    }},
+
+    {"weapon":{
+      "name": "Sickle",
+      "cost":{
+        "type": "gp",
+        "amount": "6"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "4"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "6"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "2",
+      "type": "slash",
+      "sort": "Light Melee"
+    }},
+
+    {"weapon":{
+      "name": "Club",
+      "cost":{
+        "type": "NA",
+        "amount": "NA"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "4"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "6"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "3",
+      "type": "slash",
+      "sort": "One Handed Melee"
+    }},
+
+    {"weapon":{
+      "name": "Heavy Mace",
+      "cost":{
+        "type": "gp",
+        "amount": "12"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "6"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "8"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "8",
+      "type": "slash",
+      "sort": "One Handed Melee"
+    }},
+
+    {"weapon":{
+      "name": "Morningstar",
+      "cost":{
+        "type": "gp",
+        "amount": "8"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "6"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "8"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "6",
+      "type": "slash",
+      "sort": "One Handed Melee"
+    }},
+
+    {"weapon":{
+      "name": "Shortspear",
+      "cost":{
+        "type": "gp",
+        "amount": "1"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "4"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "6"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "3",
+      "type": "slash",
+      "sort": "One Handed Melee"
+    }},
+
+    {"weapon":{
+      "name": "Longspear",
+      "cost":{
+        "type": "gp",
+        "amount": "5"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "6"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "8"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "3"
+      },
+      "weight": "9",
+      "type": "slash",
+      "sort": "Two Handed Melee"
+    }},
+
+    {"weapon":{
+      "name": "Quarterstaff",
+      "cost":{
+        "type": "NA",
+        "amount": "NA"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "4"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "6"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "weight": "4",
+      "type": "slash",
+      "sort": "Two Handed Melee"
+    }},
+
+    {"weapon":{
+      "name": "Spear",
+      "cost":{
+        "type": "gp",
+        "amount": "2"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "6"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "8"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "3"
+      },
+      "weight": "6",
+      "type": "slash",
+      "sort": "Two Handed Melee"
+    }},
+
+    {"weapon":{
+      "name": "Heavy Crossbow",
+      "cost":{
+        "type": "gp",
+        "amount": "50"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "8"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "10"
+        }
+      },
+      "critical":{
+        "range": "19",
+        "mult": "2"
+      },
+      "range": "120",
+      "weight": "8",
+      "type": "slash",
+      "sort": "Ranged"
+    }},
+
+    {"weapon":{
+      "name": "Light Crossbow",
+      "cost":{
+        "type": "gp",
+        "amount": "35"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "6"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "8"
+        }
+      },
+      "critical":{
+        "range": "19",
+        "mult": "2"
+      },
+      "range": "80",
+      "weight": "4",
+      "type": "slash",
+      "sort": "Ranged"
+    }},
+
+    {"weapon":{
+      "name": "Dart",
+      "cost":{
+        "type": "sp",
+        "amount": "5"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "3"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "4"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "range": "20",
+      "weight": ".5",
+      "type": "slash",
+      "sort": "Ranged"
+    }},
+
+    {"weapon":{
+      "name": "Javelin",
+      "cost":{
+        "type": "gp",
+        "amount": "1"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "4"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "6"
+        }
+      },
+      "critical":{
+        "range": "20",
+        "mult": "2"
+      },
+      "range": "50",
+      "weight": "2",
+      "type": "slash",
+      "sort": "Ranged"
+    }},
+
+    {"weapon":{
+      "name": "Sling`",
+      "cost":{
+        "type": "NA",
+        "amount": "NA"
+      },
+      "damage":{
+        "small":{
+          "diceNum": "1",
+          "diceType": "3"
+        },
+        "medium":{
+          "diceNum": "1",
+          "diceType": "4"
+        }
+      },
+      "critical":{
+        "range": "50",
+        "mult": "2"
+      },
+      "range": "0",
+      "weight": "2",
+      "type": "slash",
+      "sort": "Ranged"
+    }}
+  ]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abilityScores>
+  <ability>
+    <abilityName>STR</abilityName>
+    <base>8</base>
+    <levelUp>0</levelUp>
+  </ability>
+
+  <ability>
+    <abilityName>DEX</abilityName>
+    <base>16</base>
+    <levelUp>0</levelUp>
+  </ability>
+
+  <ability>
+    <abilityName>CON</abilityName>
+    <base>16</base>
+    <levelUp>0</levelUp>
+  </ability>
+
+  <ability>
+    <abilityName>INT</abilityName>
+    <base>19</base>
+    <levelUp>1</levelUp>
+  </ability>
+
+  <ability>
+    <abilityName>WIS</abilityName>
+    <base>13</base>
+    <levelUp>0</levelUp>
+  </ability>
+
+  <ability>
+    <abilityName>CHA</abilityName>
+    <base>16</base>
+    <levelUp>1</levelUp>
+  </ability>
+</abilityScores>

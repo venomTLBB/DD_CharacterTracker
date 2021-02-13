@@ -1,0 +1,70 @@
+{
+    "race": "Human",
+    "size": "Medium",
+    "speed": 30,
+    "abilityBonus": {
+      "str": 0,
+      "dex": 0,
+      "con": 0,
+      "int": 0,
+      "wis": 0,
+      "cha": 0
+    },
+
+    "savingThrows": {
+      "savingThrowBonus" :{
+        "fort" : 0,
+        "ref" : 0,
+        "will" : 0
+      },
+
+      "conditionialSavingThrowBonus" :[
+        { "save": "all", "bonus": 2, "condition": "Enchantment spells or effects"}
+      ]
+    },
+
+    "skillBonus": [
+      { "skill": "listen", "bonus": 2 },
+      { "skill": "search", "bonus": 2 },
+      { "skill": "spot", "bonus": 2 }
+    ],
+
+    "conditionalSkillBonus": [
+      { "skill": "search", "bonus": 0, "condition": "Entitled to search check within 5 feet of secret/concealed door" }
+    ],
+
+    "weaponFamiliarity": [
+    ],
+
+    "weaponProficiency": [
+      {"martial": [
+        { "weapon": "Longsword"},
+        { "weapon": "Rapier"},
+        { "weapon": "Longbow"},
+        { "weapon": "Composite Longbow"},
+        { "weapon": "Shortbow"},
+        { "weapon": "Composite Shortbow"}
+      ]},
+
+      {"exotic": []}
+    ],
+
+    "languages": [
+      {"known": [
+        { "language": "Common"}
+      ]},
+
+      {"bonus": [
+        { "language": "Draconic"},
+        { "language": "Gnoll"},
+        { "language": "Gnome"},
+        { "language": "Goblin"},
+        { "language": "Orc"},
+        { "language": "Sylvan"}
+      ]}
+    ],
+
+    "raceAbilities" :[
+      { "description" : "Immunity to magic effects"}
+    ]
+}

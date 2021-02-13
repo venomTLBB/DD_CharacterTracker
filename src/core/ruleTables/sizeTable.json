@@ -1,0 +1,93 @@
+{
+  "Fine":{
+    "atkAC": 8,
+    "specialAtk": -16,
+    "hide": 16,
+    "space": ."5",
+    "reach":{
+      "tall": 0,
+      "long": 0
+    }
+  },
+  "Diminutive":{
+    "atkAC": 4,
+    "specialAtk": -12,
+    "hide": 12,
+    "space": "1",
+    "reach":{
+      "tall": 0,
+      "long": 0
+    }
+  },
+  "Tiny":{
+    "atkAC": 2,
+    "specialAtk": -8,
+    "hide": 8,
+    "space": "2.5",
+    "reach":{
+      "tall": 0,
+      "long": 0
+    }
+  },
+  "Small":{
+  "atkAC": 1,
+  "specialAtk": -4,
+  "hide": 4,
+  "space": "5",
+  "reach":{
+    "tall": 5,
+    "long": 5
+    }
+  },
+  "Medium":{
+  "atkAC": 0,
+  "specialAtk": 0,
+  "hide": 0,
+  "space": "5",
+  "reach":{
+    "tall": 5,
+    "long": 5
+    }
+  },
+  "Large":{
+  "atkAC": -1,
+  "specialAtk": 4,
+  "hide": -4,
+  "space": "10",
+  "reach":{
+    "tall": 10,
+    "long": 5
+    }
+  },
+  "Huge":{
+  "atkAC": -2,
+  "specialAtk": 8,
+  "hide": -8,
+  "space": "15",
+  "reach":{
+    "tall": 15,
+    "long": 10
+    }
+  },
+  "Gargantuan":{
+  "atkAC": -4,
+  "specialAtk": 12,
+  "hide": -12,
+  "space": "20",
+  "reach":{
+    "tall": 20,
+    "long": 15
+    }
+  },
+  "Colossal":{
+  "atkAC": -8,
+  "specialAtk": 16,
+  "hide": -16,
+  "space": "30",
+  "reach":{
+    "tall": 30,
+    "long": 20
+    }
+  }
+
+}

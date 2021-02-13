@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raceDef>
+  <race>Human</race>
+  <size>Medium</size>
+  <speed>30</speed>
+  <abilityBonus>
+    <str></str>
+    <dex></dex>
+    <con></con>
+    <int></int>
+    <wis></wis>
+  </abilityBonus>
+
+  <skillBonus>
+    <absoluteBonus></absoluteBonus>
+    <conditionBonus></conditionBonus>
+  </skillBonus>
+
+  <savingBonus>
+    <absoluteBonus></absoluteBonus>
+    <conditionBonus></conditionBonus>
+  </savingBonus>
+
+  <feats>
+    <bonusNum>+1</bonusNum>
+    <bonusFeat></bonusFeat>
+  </feats>
+  <language>
+    <raceLanguage>Common</raceLanguage>
+    <bonusLanguage>1</bonusLanguage>
+  </language>
+  <racialAbilities>
+    <raceAbility>
+      <name></name>
+      <description></description>
+    </raceAbility>
+  </racialAbilities>
+
+</raceDef>
